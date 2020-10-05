@@ -1,0 +1,45 @@
+//// 
+/// VARIABLES FILE File
+/// @group _variables.scss
+/// @author Lend Kelmendi
+////
+/*====================================
+=            GRID GLOBALS            =
+====================================*/
+/// The total number of grid columns
+/// @type Number
+$grid-columns:12;
+/// The gutter of the grid 
+/// @type Number
+$gutter:30px;
+
+/*=====  End of GRID GLOBALS  ======*/
+
+
+/*===================================
+=            TRANSITIONS            =
+===================================*/
+/// Google Material Design cubic bezier transition
+/// @type Transition
+$transition1: all .3s cubic-bezier(0.3, 0.0, 0.2, 1);
+/// Google Material Design cubic bezier transition slower
+/// @type Transition
+$transition2: all .60s cubic-bezier(0.60, 0.0, 0.2, 1);
+
+/*=====  End of TRANSITIONS  ======*/
+
+
+/*=================================
+=            STRUCTURE            =
+=================================*/
+
+
+/*=====  End of STRUCTURE  ======*/
+
+
+/*==============================
+=            COLORS            =
+==============================*/
+
+
+/*=====  End of COLORS  ======*/
