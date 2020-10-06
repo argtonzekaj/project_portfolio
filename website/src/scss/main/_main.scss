@@ -1,3 +1,97 @@
-body {
-  text-align: center;
+body,
+input,
+select,
+textarea,
+option{
+  font-family: 'Poppins', sans-serif;
+}
+.banner_section{
+  background-color: #28df99;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.banner_wrapper{
+  max-width: 1336px;
+  margin: 0 auto;
+}
+.banner_right-side{
+  width: 60%;
+  height: calc(100% - 30px);
+  top: 15px;
+  right: 15px;
+  background-color: #fff;
+  position: absolute;
+  // z-index: 1;
+  & h1{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  & h1 span{
+    color: #28df99;
+  }
+  & p{
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
+.social_title h3{
+  color: #28df99;
+  position: relative;
+  margin-left: 690px;
+  transform: rotate(90deg);
+}
+.social_title h3::after{
+    content: "";
+    border: 1px solid #28df99;
+    height: 53px;
+    top: -20px;
+    left: 160px;
+    position: absolute;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.social-icons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 750px;
+}
+.social-icons img{
+  width: 15px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+.banner_green-circle_wrap{
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 150px;
+  border-radius: 100%;
+  width: 525px;
+  height: 525px;
+  background-color: #28df99;
+}
+.banner_white-circle{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 100%;
+  width: 495px;
+  height: 495px;
+  background-color: white;
+}
+.banner_green-circle img{
+  border-radius: 100%;
+  top: 90px;
+  left: 90px;
+  padding: 20px;
+  background-color: #28df99;
+  position: relative;
+  width: 306px;
+  height: 306px;
 }

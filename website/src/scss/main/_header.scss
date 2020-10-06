@@ -1,0 +1,48 @@
+body,
+input,
+select,
+textarea,
+option{
+  font-family: 'Poppins', sans-serif;
+}
+.main_header{
+    position: fixed;
+    z-index: 9;
+}
+.headerWrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header_logo img{ 
+    margin-top: 21px;
+    width: 141px;
+    height: 41px;
+}
+.nav_bar{
+    display: flex;
+    li{
+        margin-top: 41px;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+    & li:last-child{
+        margin-top: 27px;
+        padding: 14px 47px 14px 47px;
+        background-color: #28df99;
+        border-radius: 24px;
+    }
+    & li a{ 
+        text-decoration: none;
+        color: black;
+    }
+    & li a:hover{
+        color: #28df99;
+        border-bottom: 1px solid #28df99;
+        transition: all .3s cubic-bezier(.3,0,.2,1);
+    }
+}
+.download:hover{
+    color: black!important;
+    border-bottom: none!important;
+}

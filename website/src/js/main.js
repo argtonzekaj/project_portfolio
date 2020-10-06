@@ -1,6 +1,6 @@
-(function($, window, document) {
+(function ($, window, document) {
   "use strict";
-  $(function() {
+  $(function () {
     //##Variables
     var $body = $("body"),
       $window = $(window),
@@ -9,8 +9,8 @@
     //End Variables
 
     console.log(
-      "%c Developed by: Kutia Software Company http://kutia.net",
-      "padding:9px 5px; background:#3c4952; line-height:25px;color: #59bf9d"
+      "%c Developed by: Argton Zekaj http://instagram.com/argtonzekajj",
+      "padding:9px 5px; background:#28df99; line-height:25px;color: black"
     );
   });
 })(window.jQuery, window, document);
