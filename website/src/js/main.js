@@ -12,5 +12,8 @@
       "%c Developed by: Argton Zekaj http://instagram.com/argtonzekajj",
       "padding:9px 5px; background:#28df99; line-height:25px;color: black"
     );
+    x;
   });
 })(window.jQuery, window, document);
+
+$('.testimonial__slider').slick();

@@ -1,115 +1,305 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-  <!-- BEGIN HEADER -->
-  <header id="header" class="main_header">
-    <div class="container">
-      <div class="headerWrap">
-        <div class="header_logo">
-          <img src="images/portfolio.svg" alt="logo">
-        </div>
-        <div class="header_list">
-          <ul class="nav_bar">
-            <li> <a href="#">ABOUT ME</a></li>
-            <li> <a href="#">PORTFOLIO</a></li>
-            <li> <a class="download" href="#">DOWNLOAD CV</a></li>
-          </ul>
+  <body>
+    <!-- BEGIN HEADER -->
+    <header id="header" class="main_header">
+      <div class="container">
+        <div class="headerWrap">
+          <div class="header_logo">
+            <img src="images/portfolio.svg" alt="logo" />
+          </div>
+          <div class="header_list">
+            <ul class="nav_bar">
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a class="download" href="#">DOWNLOAD CV</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- END HEADER -->
-  <!-- BEGIN MAIN -->
-  <main id="main" class="main_content">
-    <div class="mainWrap">
-      <section class="banner_section">
-        <div class="banner_wrapper">
-          <div class="banner_right-side">
-            <div class="banner_right-name">
-              <h1>Argton <span>Zekaj</span></h1>
-              <p>Front-End Developer</p>
+    </header>
+    <!-- END HEADER -->
+    <!-- BEGIN MAIN -->
+    <main id="main" class="main_content">
+      <div class="mainWrap">
+        <section class="banner_section">
+          <div class="banner_wrapper">
+            <div class="banner_right-side">
+              <div class="banner_right-name">
+                <h1>Argton <span>Zekaj</span></h1>
+                <p>Front-End Developer</p>
+              </div>
+                <div class="social_title">
+                  <h3>FOLLOW ME ON :</h3>
+                </div>
+                <div class="social-icons">
+                  <a href="#">
+                    <img src="images/facebook-icon.svg" alt="photo"
+                  /></a>
+                  <a href="#">
+                    <img src="images/twitter-icon.svg" alt="photo"
+                  /></a>
+                  <a href="#">
+                    <img src="images/likendin-icon.svg" alt="photo"
+                  /></a>
+                </div>
             </div>
-            <div class="social_title">
-              <h3>FOLLOW ME ON :</h3>
-            </div>
-            <div class="social-icons">
-              <a href="#"> <img src="images/facebook-icon.svg" alt="photo"></a>
-              <a href="#"> <img src="images/twitter-icon.svg" alt="photo"></a>
-              <a href="#"> <img src="images/likendin-icon.svg" alt="photo"></a>
-            </div>
-          </div>
-          <div class="banner_green-circle_wrap">
-            <div class="banner_white-circle">
-              <div class="banner_green-circle">
-                <img src="images/argton.jpg" alt="photo">
+            <div class="banner_green-circle_wrap">
+              <div class="banner_white-circle">
+                <div class="banner_green-circle">
+                  <img src="images/argton.jpg" alt="photo" />
+                </div>
               </div>
             </div>
+          </div>
+        </section>
+        <section class="work_section">
+          <div class="container">
+            <div class="work_wrapper">
+              <div class="gallery-column-3">
+                <div class="box">
+                  <div class="box_thumb">
+                    <img src="images/stopwatch.svg" alt="photo" />
+                  </div>
+                  <div class="box_content">
+                    <h3>On time</h3>
+                    <p>
+                      All i want to have client setisfaction & this is my aim
+                    </p>
+                  </div>
+                  <div class="box_button">
+                    <span>Learn more</span>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-column-3">
+                <div class="box">
+                  <div class="box_thumb">
+                    <img src="images/icon.svg" alt="icon" />
+                  </div>
+                  <div class="box_content">
+                    <h3>On time</h3>
+                    <p>
+                      All i want to have client setisfaction & this is my aim
+                    </p>
+                  </div>
+                  <div class="box_button">
+                    <span><a href="#">Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-column-3">
+                <div class="box">
+                  <div class="box_thumb">
+                    <img src="images/safe-box.svg" alt="box" />
+                  </div>
+                  <div class="box_content">
+                    <h3>On time</h3>
+                    <p>
+                      All i want to have client setisfaction & this is my aim
+                    </p>
+                  </div>
+                  <div class="box_button">
+                    <span><a href="#">Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portofolio_section">
+          <div class="container">
+            <div class="portofolio_wrapper">
+              <div class="portofolio_title">
+                <h3>My Portfolio</h3>
+                <span>Web & App</span>
+              </div>
+              <div class="boxes_wrapper">
+                <div class="column-4">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-8 box-margin box-4">
+                  <div class="box2">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 8.svg" alt="photo" />
+                    </div>
+                    <div class="box__content">
+                      <h3>Portfolio</h3>
+                      <p>Writing paragraphs takes practice, but what should students write 
+                      about? Good paragraph writing prompts allow students to write 
+                      about what they know and like, so their focus can be on the writing 
+                      process and using the four essential elements.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4 box-margin">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4 box-6 box-margin">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4 box-margin">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+                <div class="column-4 box-margin">
+                  <div class="box1">
+                    <div class="box_thumb1">
+                      <img src="images/Mask Group 1.svg" alt="photo" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonial_section">
+          <div class="container">
+          <div class="testimonial__wrapper">
+            <div class="testimonial__title">
+              <h3>Valuable Testimonial</h3>
+              <span>See People Say About Me</span>
+            </div>
+           <div class="testimonial__content">
+             <div class="testimonial__green-square"></div>
+              <div class="testimonial__slider">
+                <div class="testimonial__white-square">
+                  <div class="testimonial__white-square-logo">
+                  <img src="images/circle.svg" alt="photo">
+                  </div>
+                  <div class="testimonial__white-square-content">
+                    <h3>Jhon Wick, New York</h3>
+                    <p>Writing paragraphs takes practice, 
+                    but what should students write about?
+                    Good paragraph writing prompts allow students 
+                    to write about what they know and like, so their 
+                    focus can be on the writing process and using the
+                    four essential elements.</p>
+                  </div>
+                </div>
+                <div class="testimonial__white-square">
+                  <div class="testimonial__white-square-logo">
+                  <img src="images/circle.svg" alt="photo">
+                  </div>
+                  <div class="testimonial__white-square-content">
+                    <h3>Jhon Wick, New York</h3>
+                    <p>Writing paragraphs takes practice, 
+                    but what should students write about?
+                    Good paragraph writing prompts allow students 
+                    to write about what they know and like, so their 
+                    focus can be on the writing process and using the
+                    four essential elements.</p>
+                  </div>
+                </div>
+                <div class="testimonial__white-square">
+                  <div class="testimonial__white-square-logo">
+                  <img src="images/circle.svg" alt="photo">
+                  </div>
+                  <div class="testimonial__white-square-content">
+                    <h3>Jhon Wick, New York</h3>
+                    <p>Writing paragraphs takes practice, 
+                    but what should students write about?
+                    Good paragraph writing prompts allow students 
+                    to write about what they know and like, so their 
+                    focus can be on the writing process and using the
+                    four essential elements.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+        </section>
+        <section class="job_section">
+          <div class="container">
+            <div class="job__wrapper">
+              <div class="job__title">
+                <h3>
+                  Want To Hire Me?
+                </h3>
+                <span>
+                  If You Like My Work
+                </span>
+              </div>
+              <div class="job__input">
+                <input type="text" placeholder="enter your email" class="job__input-addres">
+                <input type="submit" value="Hire" class="job__input-submit">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- END MAIN -->
+    <!-- BEGIN FOOTER -->
+    <footer id="footer" class="main_footer">
+      <div class="container">
+        <div class="footerWrap">
+          <div class="footer__logo">
+            <img src="images/portfolio.svg" alt="photo" />
+          </div>
+          <div class="footer__list">
+            <ul class="footer__nav">
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Portofolio</a></li>
+              <li><a href="#">Download CV</a></li>
+            </ul>
+          </div>
+          <div class="footer__social-media">
+            <a href="#"> <img src="images/Facebook icon.svg" alt="icon" /></a>
+            <a href="#"> <img src="images/Twitter icon.svg" alt="icon" /></a>
+            <a href="#"> <img src="images/Likendin icon.svg" alt="icon" /></a>
           </div>
         </div>
-      </section>
-      <section class="work_section">
-        <div class="container">
-          <div class="work_wrapper">
-            <div class="gallery-columns-3">
-              <div class="box_thumb">
-                <img src="images/stopwatch.svg" alt="photo">
-              </div>
-              <div class="box_content">
-                <h3>On time</h3>
-                <p>All i want to have client setisfaction & this is my aim</p>
-              </div>
-              <div class="box_button">
-                <span>Learn more</span>
-              </div>
-            </div>
-            <div class="gallery-columns-3">
-              <div class="box_thumb">
-                <img src="images/icon.svg" alt="icon">
-              </div>
-              <div class="box_content">
-                <h3>On time</h3>
-                <p>All i want to have client setisfaction & this is my aim</p>
-              </div>
-              <div class="box_button">
-                <span><a href="#">Learn more</a></span>
-              </div>
-            </div>
-            <div class="gallery-columns-3">
-              <div class="box_thumb">
-                <img src="images/safe-box.svg" alt="box">
-              </div>
-              <div class="box_content">
-                <h3>On time</h3>
-                <p>All i want to have client setisfaction & this is my aim</p>
-              </div>
-              <div class="box_button">
-                <span><a href="#">Learn more</a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <!-- END MAIN -->
-  <!-- BEGIN FOOTER -->
-  <footer id="footer" class="main_footer">
-    <div class="footerWrap"></div>
-  </footer>
-  <!-- END FOOTER -->
-  <!-- SCRIPTS -->
-  <script src="./js/scripts.js"></script>
-  <!-- END SCRIPTS -->
-</body>
-
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="./js/scripts.js"></script>
+    <!-- END SCRIPTS -->
+  </body>
 </html>

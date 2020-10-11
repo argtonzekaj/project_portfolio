@@ -1,16 +1,16 @@
-//// 
+////
 /// Grid File
 /// @group grid.scss
 /// @author Lend Kelmendi
 ////
 
 /// Generates grid columns based on the specified variables in _variables.scss
-/// This is the default grid 
+/// This is the default grid
 /// @see _variables.scss
 /// @require $grid-columns
 /// @example .column-12 {
 ///            width:100%;
-///           }    
+///           }
 @for $i from 1 through $grid-columns {
   .column-#{$i} {
     width: 100% / $grid-columns * $i;
@@ -22,13 +22,13 @@
 }
 
 //WILDCARD SELECTOR FOR COLUMNS
-[class*='column-'] {
+[class*="column-"] {
   float: left;
   min-height: 1px;
 }
 
 .has_gutter {
-  [class*='column-'] {
+  [class*="column-"] {
     padding: 0 $gutter/2;
   }
 }
@@ -125,7 +125,6 @@
   .hidden-tablet-big {
     display: none !important;
   }
-
 }
 
 .is-full-width {
@@ -162,7 +161,8 @@ main {
 }
 
 body {
-  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
   font-size: 14px;
   color: black;
   position: relative;
@@ -173,10 +173,12 @@ input,
 textarea,
 select,
 option {
-  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
   opacity: 1;
   @include placeholder {
-    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+      Arial, sans-serif;
     opacity: 1;
     font-size: 14px;
     color: black;
@@ -196,7 +198,6 @@ option {
 select::-ms-expand {
   display: none;
 }
-
 
 /*=================================
 =            Normalize            =
@@ -352,13 +353,11 @@ big {
   display: block;
 }
 
-
 /* Do not show the outline on the skip link target. */
 
 #main[tabindex="-1"]:focus {
   outline: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Alignments
@@ -382,6 +381,5 @@ big {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /*=====  End of Normalize  ======*/
